@@ -45,3 +45,25 @@
   <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Aquí pegas el código CSS que escribiste */
+    body { background-color: black; }
+    .texto-hacker {
+      color: #00ff00;
+      font-family: monospace;
+      animation: vibrar 0.2s infinite;
+    }
+    @keyframes vibrar {
+      0% { transform: translate(0); }
+      50% { transform: translate(3px, -3px); }
+      100% { transform: translate(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="texto-hacker">SISTEMA INTERVENIDO: CÓDIGO DE ELIMINACIÓN TOTAL ACTIVADO</h1>
+</body>
+</html>
